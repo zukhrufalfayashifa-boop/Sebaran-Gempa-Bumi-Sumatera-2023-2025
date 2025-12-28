@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Peta Persebaran Gempa Bumi Sumatera</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 18px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.45);
+            color: white;
+            z-index: 10;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 100%;
+            background:
+                linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+                url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 80px;
+        }
+
+        .hero-content {
+            max-width: 720px;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .hero-content h2 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .hero-content p {
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+
+        .periode {
+            font-size: 15px;
+            opacity: 0.85;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 36px;
+            background: white;
+            color: black;
+            font-size: 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e0e0e0;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            left: 80px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div><b>PETA GEMPA SUMATERA</b></div>
+    <div>
+        <a href="#">Beranda</a>
+        <a href="peta_gempa_sumatera_popup_lengkap.html">Peta</a>
+    </div>
+</div>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Peta Persebaran<br>Gempa Bumi</h1>
+        <h2>Pulau Sumatera</h2>
+
+        <p>
+            Visualisasi spasial interaktif kejadian gempa bumi di Pulau Sumatera
+            yang dilengkapi dengan popup informasi lokasi, magnitudo, dan waktu
+            kejadian. Peta ini digunakan untuk analisis distribusi spasial
+            aktivitas seismik berdasarkan data observasi.
+        </p>
+
+        <p class="periode">
+            <b>Periode Data:</b> 01 Januari 2023 – 02 Desember 2025
+        </p>
+
+        <a href="peta_gempa_sumatera_popup_lengkap.html" class="btn">
+            Lihat Peta Persebaran
+        </a>
+    </div>
+</div>
+
+<footer>
+    Proyek Pemrograman Spasial & Machine Learning<br>
+    Data Gempa Bumi Sumatera<br>
+    Periode Data: 01 Januari 2023 – 02 Desember 2025
+</footer>
+
+</body>
+</html>
